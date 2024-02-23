@@ -19,10 +19,10 @@ pipeline {
                 sudo /home/team03/miniconda3/condabin/conda init
 
                 # TODO Complete the command to run pytest
-                # sudo /home/team03/miniconda3/condabin/conda run -n mlip-lab6-shreya pytest
+                sudo /home/team03/miniconda3/condabin/conda run -n mlip-lab6-shreya pytest
 
-                echo 'pytest not runned'
-                exit 1 #comment this line after implementing Jenkinsfile
+                #echo 'pytest not runned'
+                #exit 1 #comment this line after implementing Jenkinsfile
                 '''
 
             }
